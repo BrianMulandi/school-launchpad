@@ -1,7 +1,13 @@
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
+import AboutSection from "@/components/AboutSection";
 import FeaturesSection from "@/components/FeaturesSection";
+import AcademicSection from "@/components/AcademicSection";
+import FacilitiesSection from "@/components/FacilitiesSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
 import AdmissionsSection from "@/components/AdmissionsSection";
+import ContactSection from "@/components/ContactSection";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -9,9 +15,15 @@ const Index = () => {
       <Navigation />
       <main>
         <HeroSection />
+        <AboutSection />
         <FeaturesSection />
+        <AcademicSection />
+        <FacilitiesSection />
+        <TestimonialsSection />
         <AdmissionsSection />
+        <ContactSection />
       </main>
+      <Footer />
     </div>
   );
 };

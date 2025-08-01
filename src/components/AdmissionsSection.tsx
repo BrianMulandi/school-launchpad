@@ -98,18 +98,21 @@ const AdmissionsSection = () => {
               <CardContent className="space-y-3">
                 <div className="flex justify-between items-center">
                   <span>Pre-Primary (3-5 years)</span>
-                  <span className="font-bold text-primary">KSh 45,000</span>
+                  <span className="font-bold text-primary">KSh 25,000</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span>Primary (6-13 years)</span>
-                  <span className="font-bold text-primary">KSh 65,000</span>
+                  <span className="font-bold text-primary">KSh 35,000</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span>Secondary (14-17 years)</span>
-                  <span className="font-bold text-primary">KSh 85,000</span>
+                  <span className="font-bold text-primary">KSh 45,000</span>
                 </div>
                 <div className="text-sm text-muted-foreground mt-4 p-3 bg-muted rounded-lg">
-                  * Includes tuition, meals, transport, and learning materials
+                  * Includes tuition, meals, transport, learning materials, and extracurricular activities
+                </div>
+                <div className="text-sm text-secondary font-semibold p-3 bg-secondary/10 rounded-lg">
+                  💰 20% Early Bird Discount for payments before new term | Flexible payment plans available
                 </div>
               </CardContent>
             </Card>
