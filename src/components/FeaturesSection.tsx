@@ -5,8 +5,8 @@ const FeaturesSection = () => {
   const features = [
     {
       icon: BookOpen,
-      title: "Modern Curriculum",
-      description: "CBC-compliant curriculum with international standards, preparing students for global opportunities."
+      title: "Kenyan & International Curriculum",
+      description: "KICD-approved CBC curriculum enhanced with Cambridge International standards for global recognition."
     },
     {
       icon: Users,
@@ -30,8 +30,8 @@ const FeaturesSection = () => {
     },
     {
       icon: Globe,
-      title: "Global Perspective",
-      description: "International exposure through exchange programs and multicultural learning environment."
+      title: "East African Excellence",
+      description: "Leading educational institution in Kenya with partnerships across East Africa and globally."
     }
   ];
 
@@ -40,11 +40,11 @@ const FeaturesSection = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-            Why Choose EduCare Academy?
+            Why Choose Mulandi's High International?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            We provide a comprehensive educational experience that combines academic excellence 
-            with character development, preparing students for success in the 21st century.
+            Located in Kenya with a global perspective, we provide world-class education 
+            that combines local values with international standards, preparing students for global opportunities.
           </p>
         </div>
 

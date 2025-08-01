@@ -20,7 +20,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <GraduationCap className="h-8 w-8 text-primary" />
-            <span className="text-xl font-bold text-primary">EduCare Academy</span>
+            <span className="text-xl font-bold text-primary">Mulandi's High International</span>
           </div>
 
           {/* Desktop Navigation */}

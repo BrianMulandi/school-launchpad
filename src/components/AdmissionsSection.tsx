@@ -56,11 +56,11 @@ const AdmissionsSection = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-            Join Our School Family
+            Join Mulandi's High International Family
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Start your child's educational journey with us. Our admissions process is designed 
-            to understand your child's unique needs and potential.
+            Start your child's international educational journey in Kenya. Our admissions process 
+            welcomes students from diverse backgrounds across East Africa and beyond.
           </p>
         </div>
 
