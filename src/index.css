@@ -17,17 +17,33 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Educational primary - deep academic blue */
+    --primary: 217 91% 25%;
+    --primary-foreground: 0 0% 98%;
+    --primary-glow: 217 91% 35%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Success green for achievements */
+    --secondary: 142 71% 45%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 46%;
 
-    --accent: 210 40% 96.1%;
+    /* Warm accent for highlights */
+    --accent: 43 96% 56%;
     --accent-foreground: 222.2 47.4% 11.2%;
+
+    /* Educational gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(217 91% 25%), hsl(217 91% 35%));
+    --gradient-success: linear-gradient(135deg, hsl(142 71% 45%), hsl(142 71% 55%));
+    --gradient-subtle: linear-gradient(180deg, hsl(220 14% 98%), hsl(220 14% 96%));
+
+    /* Educational shadows */
+    --shadow-elegant: 0 10px 30px -10px hsl(217 91% 25% / 0.3);
+    --shadow-card: 0 4px 20px -4px hsl(217 91% 25% / 0.15);
+
+    /* Smooth transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
