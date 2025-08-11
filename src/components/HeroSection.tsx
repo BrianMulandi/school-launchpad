@@ -1,13 +1,13 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/school-hero.jpg";
+import heroKenya from "@/assets/hero-kenya-campus.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary/5 to-secondary/5">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary/5 to-secondary/5">
       <div className="absolute inset-0 z-0">
         <img 
-          src={heroImage} 
-          alt="Students learning together" 
+          src={heroKenya}
+          alt="Mulandi's High International campus in Kenya"
           className="w-full h-full object-cover opacity-20"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-primary-glow/70"></div>
@@ -15,8 +15,8 @@ const HeroSection = () => {
       
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-center text-white">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-          Excellence in
-          <span className="block text-accent"> Education</span>
+          Mulandi's High International
+          <span className="block text-accent">Kenya-based International School</span>
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90 leading-relaxed">
